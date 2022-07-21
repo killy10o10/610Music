@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+  background-image: url("../images/Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header h2 {
+  font-size: 4em;
+}
