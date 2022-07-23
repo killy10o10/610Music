@@ -1,14 +1,19 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from "react"
+import Layout from "../components/Layout"
+import * as styles from "../components/styles/about.module.css"
 
 function About() {
-  return ( 
+  return (
     <React.Fragment>
       <Layout>
-        <h1>About Us</h1>
+        <section className={styles.about}>
+          <div>
+            <h2>About Us</h2>
+          </div>
+        </section>
       </Layout>
     </React.Fragment>
-   );
+  )
 }
 
-export default About;
+export default About

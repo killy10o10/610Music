@@ -3,11 +3,48 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: center;
-  background-image: url("../images/Background.svg");
+  background-image: url("../images/Background.svg"),
+    url("../images/Elements.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
   height: 100vh;
 }
 .header h2 {
-  font-size: 4em;
+  font-size: 150px;
+  font-weight: 700;
+}
+
+.intro {
+  position: relative;
+  left: 40%;
+  top: 30%;
+}
+
+.intro p {
+  max-width: 515px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.topImage {
+  position: relative;
+  top: 50%;
+  right: 10%;
+}
+
+.topImage img {
+  position: relative;
+  left: 40%;
+  max-width: 90%;
+}
+
+.bottomImage {
+  position: relative;
+  left: 10%;
+}
+
+.bottomImage img {
+  max-width: 100%;
 }
