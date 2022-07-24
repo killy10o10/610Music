@@ -3,34 +3,34 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: center;
-  background-image: url("../images/Background.svg"),
-    url("../images/Elements.svg");
+  background-image: url("../images/Elements.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   height: 100vh;
+  /* url("../images/Background.svg"), */
 }
 .header h2 {
   font-size: 150px;
   font-weight: 700;
+  color: #fff;
 }
 
 .intro {
   position: relative;
   left: 40%;
-  top: 30%;
+  top: 10%;
 }
 
 .intro p {
   max-width: 515px;
-  font-weight: 400;
   font-size: 24px;
   line-height: 40px;
 }
 
 .topImage {
   position: relative;
-  top: 50%;
+  top: 20%;
   right: 10%;
 }
 

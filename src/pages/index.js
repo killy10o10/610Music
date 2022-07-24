@@ -14,7 +14,7 @@ export default function Home() {
               610 <br /> Music
             </h2>
             <p>
-              61Music is based out of Los Angeles, California with a secondary
+              610Music is based out of Los Angeles, California with a secondary
               office in Ghana
             </p>
           </div>
