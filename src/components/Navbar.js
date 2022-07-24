@@ -47,18 +47,16 @@ const Navbar = class extends React.Component {
               onKeyPress={() => this.toggleHamburger()}
               onClick={() => this.toggleHamburger()}
             >
-              <div className="hambg-div">
-                <span className="hambg" />
-                <span className="hambg" />
-                <span className="hambg" />
-              </div>
+              <span className="hambg" />
+              <span className="hambg" />
+              <span className="hambg" />
             </div>
           </div>
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start nav-menu">
+            <div className="navbar-end nav-menu">
               <Link className="navbar-item" to="/about">
                 About
               </Link>
