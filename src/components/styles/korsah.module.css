@@ -1,4 +1,4 @@
-.about {
+.korsah {
   text-align: center;
   height: 100vh;
   display: flex;
@@ -10,7 +10,7 @@
   );
 }
 
-.about h2 {
+.korsah h1 {
   font-size: 3em;
   margin-top: 80px;
 }

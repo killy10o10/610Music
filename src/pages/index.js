@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/home.module.css"
+import { Link } from "gatsby"
 import korsah1 from "../components/images/korsah-1.svg"
 import korsah2 from "../components/images/korsah-2.svg"
 
@@ -11,10 +12,11 @@ export default function Home() {
         <section className={styles.header}>
           <div className={styles.intro}>
             <h2>
-              610 <br /> Music
+              <span className={styles.six}>610 </span>
+              <br /> Music
             </h2>
             <p>
-              61Music is based out of Los Angeles, California with a secondary
+              610Music is based out of Los Angeles, California with a secondary
               office in Ghana
             </p>
           </div>
@@ -23,6 +25,7 @@ export default function Home() {
           </div>
           <div className={styles.bottomImage}>
             <img src={korsah2} alt="korsah-2" />
+            <Link className={styles.meet}>Meet Korsah</Link>
           </div>
         </section>
       </Layout>
