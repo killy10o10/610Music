@@ -2,6 +2,10 @@ import { Link } from "gatsby"
 import React from "react"
 import logo from "./images/610-logo.png"
 
+const activeStyles = {
+  color: "#dba704",
+}
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -58,13 +62,21 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end nav-menu">
-              <Link className="navbar-item" to="/about">
+              <Link
+                className="navbar-item"
+                to="/about"
+                activeStyle={activeStyles}
+              >
                 About
               </Link>
-              <Link className="navbar-item" to="/artists">
+              <Link
+                className="navbar-item"
+                to="/artists"
+                activeStyle={activeStyles}
+              >
                 Artists
               </Link>
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" to="/" activeStyle={activeStyles}>
                 Home
               </Link>
             </div>

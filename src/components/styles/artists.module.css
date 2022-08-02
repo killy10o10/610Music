@@ -1,6 +1,7 @@
 .artist {
-  /* text-align: center; */
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px;
   display: flex;
   place-content: center;
   background-image: url("../images/Elements.svg");
@@ -15,16 +16,18 @@
   font-size: 3em;
   margin-left: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .artistList {
   display: grid;
+  padding: 50px 10px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 40px;
-  position: relative;
-  left: 50%;
-  top: 20%;
   width: fit-content;
+  white-space: nowrap;
 }
 
 .art {
@@ -34,4 +37,11 @@
 
 .art:hover {
   color: #dba704;
+}
+
+@media only screen and (max-width: 600px) {
+  .artist {
+    display: flex;
+    flex-direction: column;
+  }
 }

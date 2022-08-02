@@ -18,6 +18,9 @@ function Artists() {
               <Link className={styles.art} to="/">
                 Rich Flow
               </Link>
+              <Link className={styles.art} to="/">
+                Modesta
+              </Link>
             </div>
           </div>
           <div>
