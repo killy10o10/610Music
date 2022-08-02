@@ -25,7 +25,9 @@ export default function Home() {
           </div>
           <div className={styles.bottomImage}>
             <img src={korsah2} alt="korsah-2" />
-            <Link className={styles.meet}>Meet Korsah</Link>
+            <Link className={styles.meet} to="/korsah">
+              Meet Korsah
+            </Link>
           </div>
         </section>
       </Layout>
