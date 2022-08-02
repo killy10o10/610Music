@@ -24,23 +24,23 @@ function Footer() {
         </div>
         <div className="address">
           <div className="office">
-            <h4>office</h4>
-            <p>East Legon</p>
-            <p>Accra, Ghana</p>
+            <h4 className="gold">office</h4>
+            <p>Los Angeles</p>
+            <p>California</p>
           </div>
           <div className="contact">
-            <h4>Contact</h4>
-            <p>+92 302 300 3215</p>
-            <p>610music@gmail.com</p>
+            <h4 className="gold">Contact</h4>
+            <p>+1(310) 861 9620</p>
+            <p>info@610music.com</p>
             <div className="social">
-              <a href="/">
-                <i className="bi bi-twitter"></i>
+              <a href="https://twitter.com/610music" target="_blank">
+                <i class="bi bi-twitter"></i>
               </a>
-              <a href="/">
-                <i className="bi bi-facebook"></i>
+              <a href="https://m.facebook.com/610MusicGroup" target="_blank">
+                <i class="bi bi-facebook"></i>
               </a>
-              <a href="/">
-                <i className="bi bi-instagram"></i>
+              <a href="https://www.instagram.com/610music/" target="_blank">
+                <i class="bi bi-instagram"></i>
               </a>
             </div>
           </div>

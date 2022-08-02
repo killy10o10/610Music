@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Inter";
+  /* font-family: "Inter"; */
+  font-family: "Mochiy Pop One", sans-serif;
   color: white;
 }
 html,
@@ -21,11 +22,14 @@ body {
   color: #dba704;
   font-weight: 700;
   font-size: larger;
-  /* width: 70px; */
+}
+
+.gold {
+  color: #dba704;
 }
 
 .logo img {
-  max-width: 50px;
+  max-width: 70px;
 }
 
 p {
@@ -52,7 +56,6 @@ p {
 }
 
 .navbar-item:hover {
-  /* border-color: white; */
   border-radius: 1px;
   color: #dba704;
 }
@@ -60,6 +63,10 @@ p {
 .nav-menu {
   display: flex;
   align-items: center;
+}
+
+.content:not(:last-child) {
+  margin-bottom: 0;
 }
 
 footer {
@@ -115,7 +122,7 @@ footer {
 }
 
 .social {
-  font-size: 20px;
+  font-size: 30px;
   display: flex;
   gap: 15px;
 }
@@ -152,7 +159,8 @@ footer {
   transition: all 250ms ease-out;
   background-color: transparent;
   background-color: #252526;
-  padding: 10px;
+  padding: 5px;
+  font-size: 20px;
 }
 
 a.navbar-item:hover {

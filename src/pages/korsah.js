@@ -33,7 +33,44 @@ function Korsah() {
                 music and decided on his genre afterwards. Since then, he has
                 been an admirable figure to many.
               </p>
+              <h5>Connect with Korsah</h5>
+              <div className="social">
+                <a href="https://twitter.com/610music" target="_blank">
+                  <i className="bi bi-twitter"></i>
+                </a>
+                <a href="https://m.facebook.com/610MusicGroup" target="_blank">
+                  <i className="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/610music/" target="_blank">
+                  <i className="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.instagram.com/610music/" target="_blank">
+                  <i className="bi bi-apple"></i>
+                </a>
+                <a href="https://www.instagram.com/610music/" target="_blank">
+                  <i className="bi bi-spotify"></i>
+                </a>
+                <a href="https://www.instagram.com/610music/" target="_blank">
+                  <i className="bi bi-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/610music/" target="_blank">
+                  <i className="bi bi-snapchat"></i>
+                </a>
+              </div>
             </div>
+          </div>
+        </section>
+        <section className={styles.listen}>
+          <h4>Artist Catalogue</h4>
+          <div className={styles.spotify}>
+            <iframe
+              src="https://open.spotify.com/embed/artist/7uzK7g2xVqTHHYROpIKwHQ?utm_source=generator"
+              width="100%"
+              height="300"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
           </div>
         </section>
       </Layout>
