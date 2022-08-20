@@ -27,10 +27,18 @@ function Team() {
                 nature, Yaw Tef is a certified rover with the soul of a gipsy.
                 He lives by the quote "Givers Never Lack."
                 <div className="social">
-                  <a href="https://twitter.com/610music" target="_blank">
+                  <a
+                    href="https://twitter.com/610music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/610music/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/610music/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-instagram"></i>
                   </a>
                 </div>
@@ -38,9 +46,7 @@ function Team() {
             </div>
             <div className={styles.crewCard}>
               <div className={styles.imgContainer}>
-                <div className={styles.imgContainer}>
-                  <img src={ella} alt="Ella" />
-                </div>
+                <img src={ella} alt="Ella" />
               </div>
               <div className={styles.connect}>
                 <h3>Ella</h3>
@@ -52,10 +58,18 @@ function Team() {
                 inspired by the quote "Be You, Be True, Be Who You Are, No One
                 Can Change You."
                 <div className="social">
-                  <a href="https://twitter.com/610music" target="_blank">
+                  <a
+                    href="https://twitter.com/610music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/610music/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/610music/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-instagram"></i>
                   </a>
                 </div>
@@ -75,10 +89,18 @@ function Team() {
                 he had a conversation without the quote "Think Globally, Operate
                 Locally."
                 <div className="social">
-                  <a href="https://twitter.com/610music" target="_blank">
+                  <a
+                    href="https://twitter.com/610music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/610music/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/610music/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-instagram"></i>
                   </a>
                 </div>
@@ -96,10 +118,18 @@ function Team() {
                 to 610MUSIC. After over a decade as a recording artist, Rich
                 Flow began gaining recognition in 2015.
                 <div className="social">
-                  <a href="https://twitter.com/610music" target="_blank">
+                  <a
+                    href="https://twitter.com/610music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/610music/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/610music/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-instagram"></i>
                   </a>
                 </div>
@@ -118,10 +148,18 @@ function Team() {
                 Kofi Sonny has always had a knack for pushing emerging artists
                 and breaking popular local artists into mainstream pop culture.
                 <div className="social">
-                  <a href="https://twitter.com/610music" target="_blank">
+                  <a
+                    href="https://twitter.com/610music"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="https://www.instagram.com/610music/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/610music/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="bi bi-instagram"></i>
                   </a>
                 </div>

@@ -33,13 +33,25 @@ function Footer() {
             <p>+1(310) 861 9620</p>
             <p>info@610music.com</p>
             <div className="social">
-              <a href="https://twitter.com/610music" target="_blank">
+              <a
+                href="https://twitter.com/610music"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="bi bi-twitter"></i>
               </a>
-              <a href="https://m.facebook.com/610MusicGroup" target="_blank">
+              <a
+                href="https://m.facebook.com/610MusicGroup"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="bi bi-facebook"></i>
               </a>
-              <a href="https://www.instagram.com/610music/" target="_blank">
+              <a
+                href="https://www.instagram.com/610music/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="bi bi-instagram"></i>
               </a>
             </div>
