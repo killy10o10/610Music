@@ -1,0 +1,33 @@
+.team {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  padding: 5%;
+}
+
+.team h2 {
+  text-align: center;
+}
+
+.crew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.crewCard {
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 3px;
+  position: relative;
+}
+
+.crewCard img {
+  width: 100%;
+}

@@ -76,8 +76,12 @@ const Navbar = class extends React.Component {
               >
                 Artists
               </Link>
-              <Link className="navbar-item" to="/" activeStyle={activeStyles}>
-                Home
+              <Link
+                className="navbar-item"
+                to="/team"
+                activeStyle={activeStyles}
+              >
+                Team
               </Link>
             </div>
           </div>
