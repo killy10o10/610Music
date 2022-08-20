@@ -31,7 +31,8 @@
 }
 
 .biography p {
-  font-size: 18px;
+  font-size: 114%;
+  /* font-size: 18px; */
   line-height: 30px;
 }
 
