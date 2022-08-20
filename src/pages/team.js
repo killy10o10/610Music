@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/team.module.css"
-import sony from "../components/images/sony.jpg"
 import ella from "../components/images/ELLA.jpg"
 import emma from "../components/images/EMMA.jpg"
 import flow from "../components/images/FLOW.jpg"
@@ -135,7 +134,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div className={styles.crewCard}>
+            {/* <div className={styles.crewCard}>
               <div className={styles.imgContainer}>
                 <img src={sony} alt="Sony" />
               </div>
@@ -164,7 +163,7 @@ function Team() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </Layout>
