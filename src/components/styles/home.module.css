@@ -39,7 +39,7 @@
 }
 
 .topImage img {
-  max-width: 90%;
+  max-width: 65%;
 }
 
 .bottomImage {
@@ -47,7 +47,8 @@
 }
 
 .bottomImage img {
-  max-width: 100%;
+  max-width: 30%;
+  border-radius: 30px;
 }
 
 .meet {
