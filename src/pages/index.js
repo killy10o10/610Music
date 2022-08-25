@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/home.module.css"
 import { Link } from "gatsby"
-import korsah1 from "../components/images/korsah-1.svg"
-import korsah2 from "../components/images/korsah-2.svg"
+import korsah1 from "../components/images/korsah-1.png"
+import korsah2 from "../components/images/korsah-2.png"
 
 export default function Home() {
   return (
