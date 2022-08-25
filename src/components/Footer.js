@@ -38,21 +38,21 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="bi bi-twitter"></i>
+                <i className="bi bi-twitter"></i>
               </a>
               <a
                 href="https://m.facebook.com/610MusicGroup"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="bi bi-facebook"></i>
+                <i className="bi bi-facebook"></i>
               </a>
               <a
                 href="https://www.instagram.com/610music/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="bi bi-instagram"></i>
+                <i className="bi bi-instagram"></i>
               </a>
             </div>
           </div>

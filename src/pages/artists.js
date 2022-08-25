@@ -15,7 +15,7 @@ function Artists() {
               <Link className={styles.art} to="/korsah">
                 Korsah
               </Link>
-              <Link className={styles.art} to="/">
+              <Link className={styles.art} to="/flow">
                 Rich Flow
               </Link>
               <Link className={styles.art} to="/">
