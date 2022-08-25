@@ -1,39 +1,34 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/korsah.module.css"
-import korsahbw from "../components/images/korsahbw.jpg"
+import flow from "../components/images/flow-2.jpg"
 
-function Korsah() {
+function Flow() {
   return (
     <React.Fragment>
       <Layout>
         <section className={styles.korsah}>
           <div className={styles.yellow}>
-            <img src={korsahbw} alt="korsahwh" />
+            <img src={flow} alt="flow" />
           </div>
           <div className={styles.blue}>
-            <h4>Korsah</h4>
+            <h4>Rich Flow</h4>
             <div className={styles.biography}>
               <h5>Biography</h5>
               <p>
-                Born at Atonsu in the capital of the Ashanti region of Ghana,
-                Kumasi, Owusu Nkwantabisa well known by his stage name Korsah is
-                an Afrobeat and Hip-Hop artist. He was born to Atta Korsah and
-                Lydia Kunadu on April 12, 1995. The artist was inspired to go
-                into music soon after he lost his mother in 2015.
+                Rich Flow is an American rapper, singer, and songwriter signed
+                to 610MUSIC. After over a decade as a recording artist, Rich
+                Flow began gaining recognition in 2015. First, he participated
+                in BET's One Shot Competition judged by DJ Drama, where he was
+                ranked top 30 of 1000 contestants. That same year, he was issued
+                an article in the XXL Magazine as an artist on the rise.
               </p>
               <p>
-                The event in 2015 was devastating, but he drew inspiration from
-                it. He moved to Accra where he found his love for music. As a
-                young boy, he grew to appreciate Ghanaian music but decided to
-                add a new dimension to it when he got the chance.
+                Additionally, Rich Flow is a recipient of the "Young Achiever"
+                plaque awarded by Norristown Men of Excellence and The House of
+                Representatives of the Commonwealth of Pennsylvania.
               </p>
-              <p>
-                When Korsah decided to go into music, he took time to understudy
-                music and decided on his genre afterwards. Since then, he has
-                been an admirable figure to many.
-              </p>
-              <h5>Connect with Korsah</h5>
+              <h5>Connect with Rich Flow</h5>
               <div className="social">
                 <a
                   href="https://twitter.com/610music"
@@ -92,8 +87,8 @@ function Korsah() {
           <h4>Artist Catalogue</h4>
           <div className={styles.spotify}>
             <iframe
-              title="Korsah Spotify"
-              src="https://open.spotify.com/embed/artist/7uzK7g2xVqTHHYROpIKwHQ?utm_source=generator"
+              title="Rich Flow Spotify"
+              src="https://open.spotify.com/embed/artist/40h4W8oT60nQTUtHLlc2ht?utm_source=generator"
               width="100%"
               height="300"
               frameBorder="0"
@@ -106,4 +101,4 @@ function Korsah() {
     </React.Fragment>
   )
 }
-export default Korsah
+export default Flow
