@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/korsah.module.css"
-import korsahbw from "../components/images/korsahbw.jpg"
+import korsah from "../components/images/korsah.png"
 
 function Korsah() {
   return (
@@ -9,7 +9,7 @@ function Korsah() {
       <Layout>
         <section className={styles.korsah}>
           <div className={styles.yellow}>
-            <img src={korsahbw} alt="korsahwh" />
+            <img src={korsah} alt="korsahwh" />
           </div>
           <div className={styles.blue}>
             <h4>Korsah</h4>
