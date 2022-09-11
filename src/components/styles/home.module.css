@@ -18,7 +18,7 @@
 }
 
 .intro {
-  transform: translate(40%, 10%);
+  transform: translate(30%, 5%);
 }
 
 .six {
@@ -34,7 +34,7 @@
 }
 
 .topImage img {
-  transform: translate(53%, 20%);
+  transform: translate(35%, 10%);
   max-width: 65%;
 }
 

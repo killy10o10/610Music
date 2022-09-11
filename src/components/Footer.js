@@ -1,5 +1,4 @@
 import React from "react"
-import blomar from "../components/images/Blomar.svg"
 
 function Footer() {
   const year = new Date()
@@ -12,15 +11,11 @@ function Footer() {
             <input className="email" type="email" placeholder="Enter e-mail" />
           </form>
           <div>
-            <p className="copyright">
-              &copy; {year.getFullYear()} 610Music. All Rights Reserved
-            </p>
+            <p className="copyright">All Rights Reserved</p>
           </div>
         </div>
         <div className="blomar">
-          <p>
-            powered by <img src={blomar} alt="blomar" />
-          </p>
+          <p>&copy; {year.getFullYear()} 610Music.</p>
         </div>
         <div className="address">
           <div className="office">

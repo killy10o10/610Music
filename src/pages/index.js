@@ -1,9 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/home.module.css"
-import { Link } from "gatsby"
-import korsah1 from "../components/images/korsah-1.png"
-import korsah2 from "../components/images/korsah-2.png"
+import logo from "../components/images/logo.png"
 
 export default function Home() {
   return (
@@ -17,18 +15,13 @@ export default function Home() {
             </h2>
             <p>
               610Music is based out of Los Angeles, California with a secondary
-              office in Ghana
+              office in Accra, Ghana
             </p>
           </div>
           <div className={styles.topImage}>
-            <img src={korsah1} alt="korsah-1" />
+            <img src={logo} alt="logo" />
           </div>
-          <div className={styles.bottomImage}>
-            <img src={korsah2} alt="korsah-2" />
-            <Link className={styles.meet} to="/korsah">
-              Meet Korsah
-            </Link>
-          </div>
+          <div className={styles.bottomImage}></div>
         </section>
       </Layout>
     </React.Fragment>
