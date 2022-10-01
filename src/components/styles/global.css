@@ -148,6 +148,10 @@ footer {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.office-mobile {
+  display: none;
+}
 .blomar p {
   display: flex;
   align-items: center;
@@ -180,6 +184,11 @@ a.navbar-item:hover {
   .navbar-menu {
     transition: all 250ms ease-out;
     background-color: transparent;
+  }
+
+  .office-mobile {
+    display: flex;
+    flex-direction: column;
   }
 
   footer {

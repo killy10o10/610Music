@@ -10,8 +10,8 @@ export default function Home() {
         <section className={styles.header}>
           <div className={styles.intro}>
             <h2>
-              <span className={styles.six}>610 </span>
-              <br /> Music
+              610Music
+              <span className={styles.six}> </span>
             </h2>
             <p>
               610Music is based out of Los Angeles, California with a secondary

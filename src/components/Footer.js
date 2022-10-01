@@ -15,13 +15,17 @@ function Footer() {
           </div>
         </div>
         <div className="blomar">
+          <div className="office-mobile">
+            <p>25391 Commercentre Dr Ste 115,</p>
+            <p> Lake Forest, CA 92630</p>
+          </div>
           <p>&copy; {year.getFullYear()} 610Music.</p>
         </div>
         <div className="address">
           <div className="office">
             <h4 className="gold">office</h4>
-            <p>Los Angeles</p>
-            <p>California</p>
+            <p>25391 Commercentre Dr Ste 115,</p>
+            <p> Lake Forest, CA 92630</p>
           </div>
           <div className="contact">
             <h4 className="gold">Contact</h4>
