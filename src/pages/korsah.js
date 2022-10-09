@@ -36,53 +36,53 @@ function Korsah() {
               <h5>Connect with Korsah</h5>
               <div className="social">
                 <a
-                  href="https://twitter.com/610music"
+                  href="https://twitter.com/realkorsah"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-twitter"></i>
                 </a>
                 <a
-                  href="https://m.facebook.com/610MusicGroup"
+                  href="https://instagram.com/realkorsah"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://instagram.com/realkorsah"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-instagram"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://music.apple.com/gh/artist/korsah/1177147876"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-apple"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://open.spotify.com/artist/7uzK7g2xVqTHHYROpIKwHQ?si=2ifeSKOcTfmimZKAsaxayA"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-spotify"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://www.tiktok.com/@realkorsah"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-tiktok"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://www.youtube.com/c/KORSAH"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-snapchat"></i>
+                  <i className="bi bi-youtube" />
                 </a>
               </div>
             </div>

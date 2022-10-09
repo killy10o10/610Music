@@ -38,6 +38,10 @@
   max-width: 65%;
 }
 
+.topImage h2 {
+  display: none;
+}
+
 .bottomImage {
   transform: translate(10%, 20%);
 }
@@ -72,6 +76,14 @@
     transform: none;
   }
 
+  .intro h2 {
+    display: none;
+  }
+
+  .topImage h2 {
+    display: block;
+  }
+
   .intro p {
     min-width: 299px;
     font-size: 18px;
@@ -83,6 +95,8 @@
     width: 350px;
     transform: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
