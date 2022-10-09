@@ -11,14 +11,14 @@
   height: 100%;
 }
 .header h2 {
-  font-size: 150px;
+  font-size: 8rem;
   font-weight: 700;
   color: #fff;
   font-family: "Inter", sans-serif;
 }
 
 .intro {
-  transform: translate(30%, 5%);
+  transform: translate(18%, 5%);
 }
 
 .six {
@@ -27,15 +27,19 @@
 }
 
 .intro p {
-  max-width: 515px;
+  /* max-width: 515px; */
   font-size: 24px;
   line-height: 40px;
-  transform: translateY(-20%);
+  transform: translateY(-10%);
 }
 
 .topImage img {
   transform: translate(35%, 10%);
   max-width: 65%;
+}
+
+.topImage h2 {
+  display: none;
 }
 
 .bottomImage {
@@ -72,6 +76,14 @@
     transform: none;
   }
 
+  .intro h2 {
+    display: none;
+  }
+
+  .topImage h2 {
+    display: block;
+  }
+
   .intro p {
     min-width: 299px;
     font-size: 18px;
@@ -83,6 +95,8 @@
     width: 350px;
     transform: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 

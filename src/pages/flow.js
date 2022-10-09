@@ -31,53 +31,53 @@ function Flow() {
               <h5>Connect with Rich Flow</h5>
               <div className="social">
                 <a
-                  href="https://twitter.com/610music"
+                  href="https://twitter.com/RichFlizzyFlow"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-twitter"></i>
                 </a>
                 <a
-                  href="https://m.facebook.com/610MusicGroup"
+                  href="https://web.facebook.com/flizzyflow"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://www.instagram.com/flizzyflow/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-instagram"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://music.apple.com/us/artist/rich-flow/621722786"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-apple"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://open.spotify.com/artist/40h4W8oT60nQTUtHLlc2ht?si=BaprLykgQZm4rK7tWBK3kg"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-spotify"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://www.tiktok.com/@flizzyflow610"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="bi bi-tiktok"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/610music/"
+                  href="https://www.tiktok.com/@flizzyflow610"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-snapchat"></i>
+                  <i className="bi bi-youtube" />
                 </a>
               </div>
             </div>
