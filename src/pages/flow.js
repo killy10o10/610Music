@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/korsah.module.css"
 import flow from "../components/images/flow-2.jpg"
+import SearchEngineOptimize from "../components/seo"
 
 function Flow() {
   return (
@@ -102,3 +103,4 @@ function Flow() {
   )
 }
 export default Flow
+export const Head = () => <SearchEngineOptimize />

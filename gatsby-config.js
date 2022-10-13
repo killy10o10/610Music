@@ -7,9 +7,18 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `610 Music`,
-    siteUrl: `https://www.610music.com`,
-    description: `Official website for 610 Music Record Label`,
+    title: "610 Music",
+    description: "Official website for 610Music Records and Publishing Inc.",
+    twitterUsername: "@610music",
+    image: "src/components/images/logo-white.png",
+    siteUrl: "https://www.610music.com",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/components/images/logo-white.png",
+      },
+    },
+  ],
 }
