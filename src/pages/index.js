@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/home.module.css"
 import logo from "../components/images/logo.png"
+import SearchEngineOptimize from "../components/seo"
 
 export default function Home() {
   return (
@@ -26,3 +27,5 @@ export default function Home() {
     </React.Fragment>
   )
 }
+
+export const Head = () => <SearchEngineOptimize />

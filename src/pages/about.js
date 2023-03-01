@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../components/styles/about.module.css"
+import SearchEngineOptimize from "../components/seo"
 
 function About() {
   return (
@@ -53,3 +54,4 @@ function About() {
 }
 
 export default About
+export const Head = () => <SearchEngineOptimize />

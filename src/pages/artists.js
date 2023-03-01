@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import * as styles from "../components/styles/artists.module.css"
 import artist from "../components/images/artists.svg"
+import SearchEngineOptimize from "../components/seo"
 
 function Artists() {
   return (
@@ -33,3 +34,4 @@ function Artists() {
 }
 
 export default Artists
+export const Head = () => <SearchEngineOptimize />

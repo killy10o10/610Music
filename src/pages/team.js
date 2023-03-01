@@ -5,6 +5,7 @@ import ella from "../components/images/ELLA.jpg"
 import emma from "../components/images/EMMA.jpg"
 import Sonny from "../components/images/Sonny.jpg"
 import tef from "../components/images/TEF.jpg"
+import SearchEngineOptimize from "../components/seo"
 
 function Team() {
   return (
@@ -171,3 +172,5 @@ function Team() {
 }
 
 export default Team
+
+export const Head = () => <SearchEngineOptimize />
